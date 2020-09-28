@@ -10,13 +10,13 @@ import {
 } from "react-firebase-hooks/firestore";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyCU32Jy1yNARKCqr8xWWgAQyytl6ohT6jg",
+  apiKey: "",
   authDomain: "appchat-28c00.firebaseapp.com",
   databaseURL: "https://appchat-28c00.firebaseio.com",
   projectId: "appchat-28c00",
   storageBucket: "appchat-28c00.appspot.com",
-  messagingSenderId: "446114200081",
-  appId: "1:446114200081:web:43d1cd2a2a8330a64b4fb0",
+  messagingSenderId: "",
+  appId: "1::web:43d1cd2a2a8330a64b4fb0",
 });
 
 const auth = firebase.auth();
